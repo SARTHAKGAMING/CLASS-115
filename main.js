@@ -22,13 +22,13 @@ function take_snapshot() {
 function modelloaded(){
     console.log("PoseNet Has Inislised");
 }
-function gotPoses(resualt){
-if(resualt.lenth>0){
+function gotPoses(results){
+if(results.lenth>0){
 
-console.log(resualt);
+console.log(results);
 
-console.log("Nose x ="+resualt[0].pose.nose.x);
-console.log("Nose y ="+resualt[0].pose.nose.y);
+console.log("Nose x ="+results[0].pose.nose.x);
+console.log("Nose y ="+results[0].pose.nose.y);
 
 }
 }
